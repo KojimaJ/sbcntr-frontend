@@ -9,7 +9,7 @@ phases:
     commands:
       - echo ===== pre build phase =====
 
-      - export DOCKER_CONTENT_TRUST=1
+      #- export DOCKER_CONTENT_TRUST=1
 
       - export ECR_REPOS_DOMAIN=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com
       - export ECR_REPOS_URI=${ECR_REPOS_DOMAIN}/${APP_NAME}
