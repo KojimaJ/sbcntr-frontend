@@ -30,7 +30,7 @@ export function Header({ className }: { className?: string }) {
         <Link to="/" className="flex items-center space-x-2">
           <PawPrint className="h-6 w-6" />
           {/* <span className="text-xl font-bold">uma-arai Container shop</span> */}
-          <span className="text-x1 font-bold">My Container shop</span>
+          <span className="text-x2 font-bold">My Container shop</span>
         </Link>
 
         <nav>
